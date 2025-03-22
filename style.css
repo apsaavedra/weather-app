@@ -28,6 +28,7 @@ footer {
   margin-right: auto;
   max-width: fit-content;
   margin-top: 10%;
+  border-radius: 5px;
 }
 
 .search {
@@ -51,6 +52,8 @@ footer {
 }
 
 .current-weather {
-  display: grid;
-  right: 80px;
+  /*display: grid;*/
+  position: relative;
+  left: 80%;
+  bottom: 100%;
 }
