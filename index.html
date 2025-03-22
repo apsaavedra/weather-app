@@ -4,34 +4,42 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Weather Today</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a city…" />
-        <input type="submit" value="Search" />
-      </form>
-    </header>
+    <div class="container">
+      <header>
+        <form>
+          <input type="search" class="search" placeholder="Enter a city…" />
+          <input type="submit" value="Search" class="button" />
+        </form>
+      </header>
 
-    <main>
-      <div>
-        <h1>San Francisco</h1>
-        <p>
-          Saturday 0:03, overcast clouds
-          <br />
-          Humidity: <strong>86%</strong>, Wind: <strong>4.12km/h</strong>
-        </p>
-      </div>
-      <div>
-        <span>🌤</span>
-        <h2>12</h2>
-        <span>°C</span>
-      </div>
-    </main>
+      <main>
+        <div>
+          <h1>Paris</h1>
+          <p>
+            Saturday 0:03, overcast clouds
+            <br />
+            Humidity: <strong>86%</strong>, Wind: <strong>4.12km/h</strong>
+          </p>
+        </div>
+        <div class="current-weather">🌤 12 °C</div>
+      </main>
 
-    <footer>
-      Coded by <a href="">Ana Saavedra</a>, this project is
-      <a href="">open-sourced on GitHub</a> and <a href="">hosted on Netlify</a>
-    </footer>
+      <footer>
+        Coded by <a href="">Ana Saavedra</a>, this project is
+        <a href="">open-sourced on GitHub</a> and
+        <a href="">hosted on Netlify</a>
+      </footer>
+    </div>
   </body>
 </html>
