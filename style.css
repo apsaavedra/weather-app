@@ -35,6 +35,12 @@ a {
   color: #7592ab;
 }
 
+img {
+  width: 88px;
+  height: 88px;
+  margin-top: -25px;
+}
+
 .container {
   background-color: white;
   padding: 30px;
@@ -72,13 +78,16 @@ a {
 
 .current-weather {
   display: flex;
-  margin-top: 20px;
+  margin-top: 30px;
+  margin-right: 20px;
 }
 
 .icon {
   font-size: 30px;
   margin-top: 10px;
   margin-left: 10px;
+  display: flex;
+  top: 40px;
 }
 
 .temperature {
