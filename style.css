@@ -9,6 +9,10 @@ form {
   max-width: fit-content;
 }
 
+main {
+  padding-top: 30px;
+}
+
 h1 {
   font-family: "Pixelify Sans", sans-serif;
 }
@@ -17,8 +21,18 @@ p {
   font-size: 13px;
 }
 
+strong {
+  color: #7592ab;
+}
+
 footer {
   font-size: 10px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+a {
+  color: #7592ab;
 }
 
 .container {
@@ -51,9 +65,29 @@ footer {
   cursor: pointer;
 }
 
+.flex-box-container {
+  display: flex;
+  justify-content: space-between;
+}
+
 .current-weather {
-  /*display: grid;*/
-  position: relative;
-  left: 80%;
-  bottom: 100%;
+  display: flex;
+  margin-top: 20px;
+}
+
+.icon {
+  font-size: 30px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.temperature {
+  font-size: 50px;
+  font-family: "Pixelify Sans", sans-serif;
+}
+
+.metric {
+  font-size: 26px;
+  font-family: "Pixelify Sans", sans-serif;
+  margin-top: 10px;
 }

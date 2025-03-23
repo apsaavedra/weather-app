@@ -18,21 +18,32 @@
     <div class="container">
       <header>
         <form>
-          <input type="search" class="search" placeholder="Enter a city…" />
-          <input type="submit" value="Search" class="button" />
+          <input
+            type="search"
+            class="search"
+            id="city-search"
+            placeholder="Enter a city…"
+          />
+          <input type="submit" value="Search" class="button" id="city-submit" />
         </form>
       </header>
 
       <main>
-        <div>
-          <h1>Paris</h1>
-          <p>
-            Saturday 0:03, overcast clouds
-            <br />
-            Humidity: <strong>86%</strong>, Wind: <strong>4.12km/h</strong>
-          </p>
+        <div class="flex-box-container">
+          <div>
+            <h1>Paris</h1>
+            <p>
+              Saturday 0:03, overcast clouds
+              <br />
+              Humidity: <strong>86%</strong>, Wind: <strong>4.12km/h</strong>
+            </p>
+          </div>
+          <div class="current-weather">
+            <div class="icon">🌤</div>
+            <div class="temperature">12</div>
+            <div class="metric">°C</div>
+          </div>
         </div>
-        <div class="current-weather">🌤 12 °C</div>
       </main>
 
       <footer>
@@ -42,4 +53,6 @@
       </footer>
     </div>
   </body>
+
+  <script src="app.js"></script>
 </html>
