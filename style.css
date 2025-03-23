@@ -1,6 +1,7 @@
 body {
   background: #d1e5f4;
   font-family: "Roboto Mono", monospace;
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/161/118/original/d3e57ad39e62842a6cd7225ed44238bf_t.jpg?1742748496);
 }
 
 form {
@@ -27,7 +28,7 @@ strong {
 
 footer {
   font-size: 10px;
-  padding-top: 30px;
+  padding-top: 40px;
   text-align: center;
 }
 
@@ -99,4 +100,39 @@ img {
   font-size: 26px;
   font-family: "Pixelify Sans", sans-serif;
   margin-top: 10px;
+}
+
+.weather-forecast {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.weather-forecast-date {
+  text-align: center;
+  font-size: 14px;
+}
+
+.weather-forecast-icon {
+  font-size: 20px;
+  text-align: center;
+}
+
+.weather-forecast-temperatures {
+  text-align: center;
+  font-size: 12px;
+  color: #7592ab;
+  display: flex;
+  justify-content: center;
+}
+
+.weather-forecast-temperature {
+  padding: 0 5px;
+}
+
+.weather-forecast img {
+  width: 40px;
+  height: 40px;
+  display: block;
+  margin: 10px auto;
 }
